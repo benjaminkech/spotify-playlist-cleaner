@@ -1,0 +1,15 @@
+{
+  "bindings": [
+    {
+      "name": "req",
+      "type": "activityTrigger",
+      "direction": "in"
+    },
+    {
+      "name": "client",
+      "type": "durableClient",
+      "direction": "in"
+    }
+  ],
+  "scriptFile": "../dist/PlaylistCleanup/index.js"
+}

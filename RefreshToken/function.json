@@ -1,0 +1,10 @@
+{
+  "bindings": [
+    {
+      "name": "state",
+      "type": "activityTrigger",
+      "direction": "in"
+    }
+  ],
+  "scriptFile": "../dist/RefreshToken/index.js"
+}
