@@ -41,4 +41,4 @@ jobs:
           app-name: 'spotify-playlist-cleaner'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CD7594D4741E4A448E3797104E48874B }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5801A535443E462C810D9E76ED8AE3B9 }}
